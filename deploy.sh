@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 빌드 디렉토리
-BUILD_DIR=dist
+BUILD_DIR=build
 TMP_DIR=tmp-deploy
 
 # 현재 브랜치 확인
