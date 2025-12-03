@@ -114,7 +114,7 @@ export function Hero() {
               <div className="relative aspect-square max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary/10 rounded-3xl"></div>
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjQ2MzYzOTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="profile"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-3xl border-4 border-background shadow-2xl"
                 />
