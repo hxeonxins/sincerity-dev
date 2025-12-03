@@ -1,5 +1,11 @@
-import { Mail, Github, Linkedin, MapPin, Send } from 'lucide-react';
-import { Button } from '../ui/button';
+import {
+  Mail,
+  Github,
+  Phone,
+  MapPin,
+  Send,
+} from "lucide-react";
+import { Button } from "../ui/button";
 
 export function Contact() {
   return (
@@ -17,16 +23,20 @@ export function Contact() {
 
         <div className="bg-gradient-to-br from-secondary/50 to-transparent border rounded-3xl p-8 md:p-10">
           <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <a 
-              href="mailto:your.email@example.com"
+            <a
+              href="mailto:hyunjin.dev143@gmail.com"
               className="flex items-start gap-4 p-4 rounded-xl hover:bg-card/50 transition-colors group"
             >
               <div className="p-3 bg-primary/10 rounded-xl group-hover:bg-primary/20 transition-colors">
                 <Mail className="text-primary" size={20} />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Email</p>
-                <p className="group-hover:text-primary transition-colors">your.email@example.com</p>
+                <p className="text-sm text-muted-foreground mb-1">
+                  Email
+                </p>
+                <p className="group-hover:text-primary transition-colors">
+                  hyunjin.dev143@gmail.com
+                </p>
               </div>
             </a>
 
@@ -35,13 +45,15 @@ export function Contact() {
                 <MapPin className="text-primary" size={20} />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Location</p>
+                <p className="text-sm text-muted-foreground mb-1">
+                  Location
+                </p>
                 <p>Seoul, South Korea</p>
               </div>
             </div>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/hxeonxins"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-start gap-4 p-4 rounded-xl hover:bg-card/50 transition-colors group"
@@ -50,8 +62,12 @@ export function Contact() {
                 <Github className="text-primary" size={20} />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">GitHub</p>
-                <p className="group-hover:text-primary transition-colors">github.com/yourusername</p>
+                <p className="text-sm text-muted-foreground mb-1">
+                  GitHub
+                </p>
+                <p className="group-hover:text-primary transition-colors">
+                  github.com/hxeonxins
+                </p>
               </div>
             </a>
 
@@ -62,24 +78,33 @@ export function Contact() {
               className="flex items-start gap-4 p-4 rounded-xl hover:bg-card/50 transition-colors group"
             >
               <div className="p-3 bg-primary/10 rounded-xl group-hover:bg-primary/20 transition-colors">
-                <Linkedin className="text-primary" size={20} />
+                <Phone className="text-primary" size={20} />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">LinkedIn</p>
-                <p className="group-hover:text-primary transition-colors">linkedin.com/in/yourusername</p>
+                <p className="text-sm text-muted-foreground mb-1">
+                  Phone
+                </p>
+                <p className="group-hover:text-primary transition-colors">
+                  010-5711-5574
+                </p>
               </div>
             </a>
           </div>
 
-          <div className="border-t pt-8 text-center">
+          {/* <div className="border-t pt-8 text-center">
             <Button asChild size="lg" className="group">
-              <a href="mailto:your.email@example.com" className="flex items-center gap-2">
+              <a
+                href="mailto:hyunjin.dev143@gmail.com"
+                className="flex items-center gap-2"
+              >
                 <Send size={18} />
                 이메일 보내기
-                <span className="group-hover:translate-x-1 transition-transform">→</span>
+                <span className="group-hover:translate-x-1 transition-transform">
+                  →
+                </span>
               </a>
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
